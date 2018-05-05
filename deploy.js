@@ -4,8 +4,7 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
   //'metamask Mnemonic' , 'infura rinkeby api'
-  'circle whip hand zero solar vehicle mammal key eternal year bachelor frequent',
-  'https://rinkeby.infura.io/SdMrVoP9IaSUAgqPEley'
+
 );
 
 const web3 = new Web3(provider);
